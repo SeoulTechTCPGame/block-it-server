@@ -70,3 +70,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 추가 제외 파일 리스트
+*.vsconfig
+/[Uu]serSettings/
+/Test/
+/ProjectSettings/ProjectSettings.asset
+.DS_Store
