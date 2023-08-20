@@ -77,3 +77,7 @@ crashlytics-build.properties
 /Test/
 /ProjectSettings/ProjectSettings.asset
 .DS_Store
+
+# 서버 연결 정보파일
+ConnectionInfo.json
+ConnectionInfo.json.meta
