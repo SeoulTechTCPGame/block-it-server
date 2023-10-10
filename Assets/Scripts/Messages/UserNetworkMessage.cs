@@ -63,3 +63,16 @@ public struct ResponseChangeUserNameMessage : NetworkMessage
     public bool isDupcliate;
 }
 #endregion
+
+#region 게임 종료 후 전적 업데이트 시 송수신 할 메세지 정의
+public struct RequestUpdateUserRecordMessage : NetworkMessage
+{
+    public string userId;
+    public bool win;
+}
+
+public struct ResponseUpdateUserRecordMessage : NetworkMessage
+{
+    public bool success;
+}
+#endregion
